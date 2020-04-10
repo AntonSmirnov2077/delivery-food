@@ -8,3 +8,5 @@ cartButton.addEventListener("click", function (event) {
 close.addEventListener("click", function (event) {
     modal.classList.remove("is-open")
 });
+
+new WOW().init()
